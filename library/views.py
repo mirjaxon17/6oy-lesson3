@@ -1,4 +1,8 @@
 from django.shortcuts import render
 
-def library_views(request):
-    return render(request, "library.html")
+def books_page(request):
+    return render(request,'library.html')
+
+
+def landing_page(request):
+    return render(request, 'librarys.html')
